@@ -2,7 +2,7 @@
 
 ## 🈷 Welcome
 
-* [About Me](README.md)
+* [Info](README.md)
 
 ## 🈲 HackTheBox
 
