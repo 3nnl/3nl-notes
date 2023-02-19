@@ -6,7 +6,7 @@ coverY: 0
 
 # \[Easy] Stocker
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Machine stats</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Machine stats</p></figcaption></figure>
 
 ### Recon <a href="#recon" id="recon"></a>
 

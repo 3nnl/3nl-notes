@@ -1,10 +1,14 @@
 ---
 description: HackTheBox OpenSource writeup
+cover: ../.gitbook/assets/image (2) (1).png
+coverY: 0
 ---
 
 # \[Easy] OpenSource
 
-## HTB: OpenSource <a href="#htb-opensource" id="htb-opensource"></a>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+HTB: OpenSource
 
 ### Machine Info <a href="#machine-info" id="machine-info"></a>
 
