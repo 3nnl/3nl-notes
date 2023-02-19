@@ -4,8 +4,8 @@
 
 * [Info](README.md)
 
-## 🈲 HackTheBox
+## 🈲 HackTheBox Writeups
 
-* [\[Easy\] Stocker](hackthebox/easy-stocker.md)
-* [\[Easy\] MetaTwo](hackthebox/easy-metatwo.md)
-* [\[Medium\] Ambassador](hackthebox/medium-ambassador.md)
+* [\[Easy\] Stocker](hackthebox-writeups/easy-stocker.md)
+* [\[Easy\] MetaTwo](hackthebox-writeups/easy-metatwo.md)
+* [\[Medium\] Ambassador](hackthebox-writeups/medium-ambassador.md)
