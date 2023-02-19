@@ -20,7 +20,7 @@ You've reached the place where I save InfoSec stuff such as writeups, notes and 
 
 ### Contacts
 
-Discord: [https://discord.com/users/36362352707043328](https://discord.com/users/363623527070433282)2
+Discord: [https://discord.com/users/363623527070433282](https://discord.com/users/363623527070433282)
 
 Telegram: [https://t.me/nota3nnl](https://t.me/nota3nnl)
 
