@@ -6,6 +6,7 @@
 
 ## 🈲 HackTheBox Writeups
 
+* [\[Easy\] OpenSource](hackthebox-writeups/easy-opensource.md)
 * [\[Easy\] Stocker](hackthebox-writeups/easy-stocker.md)
-* [\[Easy\] MetaTwo](hackthebox-writeups/easy-metatwo.md)
-* [\[Medium\] Ambassador](hackthebox-writeups/medium-ambassador.md)
+* [\[Easy\] MetaTwo](hackthebox/easy-metatwo.md)
+* [\[Medium\] Ambassador](hackthebox/medium-ambassador.md)
