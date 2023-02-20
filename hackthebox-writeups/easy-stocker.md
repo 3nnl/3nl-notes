@@ -92,7 +92,7 @@ token: ddac62a28254561001277727cb397baf
 
 Once the request has been modified, you get an auth bypass:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 In browser:
 

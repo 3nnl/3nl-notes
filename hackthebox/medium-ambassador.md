@@ -357,7 +357,7 @@ consul/focal,now 1.13.2-1 amd64 [installed]
 
 Find an exploit for the RCE in Metasploit:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

