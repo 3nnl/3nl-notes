@@ -14,7 +14,7 @@ coverY: 0
 
 `nmap`: **22 - SSH** and **80 - nginx**.
 
-```nmap
+```
 PORT      STATE  SERVICE    VERSION
 22/tcp    open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey:
@@ -96,17 +96,13 @@ Once the request has been modified, you get an auth bypass:
 
 In browser:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Client-Side XXS <a href="#client-side-xxs" id="client-side-xxs"></a>
 
-Now, via page `/stock` add product to basket and intercept HTTP-request with BurpSuite.
+Now, via page `/stock` add product to basket and intercept HTTP-request with BurpSuite.&#x20;
 
-![](../.gitbook/assets/image.png)
-
-We have an API `/api/order` to make an order, which sends the \`\`\`basket" as a parameter.
-
-And order details are available on /api/po/ID.V
+We have an API `/api/order` to make an order, which sends the \`\`\`basket" as a parameter. And order details are available on /api/po/ID.
 
 `/api/order` is a dynamic PDF generator, which has vulnerable to Server Side XSS parameter `title`.
 

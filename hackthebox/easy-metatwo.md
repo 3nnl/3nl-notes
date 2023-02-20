@@ -6,7 +6,7 @@ coverY: 0
 
 # \[Easy] MetaTwo
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Overview <a href="#overview" id="overview"></a>
 
