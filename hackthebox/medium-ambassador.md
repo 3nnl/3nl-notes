@@ -6,7 +6,7 @@ coverY: 0
 
 # \[Medium] Ambassador
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Recon
 
@@ -363,7 +363,7 @@ Find an exploit for the RCE in Metasploit:
 
 But we can’t use that, cuz UI on victim machine seems to be disabled:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 So let’s set up a TCP tunneling from Ambassador machine to ours to exploit the vulnerability.
 

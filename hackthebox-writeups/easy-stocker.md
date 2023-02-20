@@ -12,7 +12,7 @@ coverY: 0
 
 #### Services <a href="#services" id="services"></a>
 
-`nmap`: **22 - SSH** and port **80 - nginx**.
+`nmap`: **22 - SSH** and **80 - nginx**.
 
 ```nmap
 PORT      STATE  SERVICE    VERSION
@@ -55,7 +55,7 @@ Found: dev.stocker.htb Status: 302 [Size: 28] [--> /login]
 
 #### Website <a href="#website" id="website"></a>
 
-So now, we have plain `stocker.htb` page without anything, and subdomain page `dev.stocker.htb` with redirect to `dev.stocker.htb/login`.
+So, we have plain `stocker.htb` page without anything, and subdomain page `dev.stocker.htb` with redirect to `dev.stocker.htb/login`.
 
 ### Exploitation <a href="#exploitation" id="exploitation"></a>
 
@@ -92,17 +92,17 @@ token: ddac62a28254561001277727cb397baf
 
 Once the request has been modified, you get an auth bypass:
 
-<figure><img src="http://localhost:1313/stocker/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 In browser:
 
-<figure><img src="http://localhost:1313/stocker/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Client-Side XXS <a href="#client-side-xxs" id="client-side-xxs"></a>
 
 Now, via page `/stock` add product to basket and intercept HTTP-request with BurpSuite.
 
-<figure><img src="http://localhost:1313/stocker/1.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
 We have an API `/api/order` to make an order, which sends the \`\`\`basket" as a parameter.
 
@@ -118,9 +118,9 @@ And order details are available on /api/po/ID.V
 
 Response:
 
-<figure><img src="http://localhost:1313/stocker/3.png" alt=""><figcaption></figcaption></figure>
 
-Do the same with `file:///var/www/dev/index.js` and get user SSH password.
+
+Doing same with `file:///var/www/dev/index.js` we get user SSH password.
 
 ![1.png](http://localhost:1313/stocker/4.png)
 
