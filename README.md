@@ -14,9 +14,7 @@ You've reached the place where I save InfoSec stuff such as writeups, notes and 
 
  Student in CyberSec & Forensics
 
- Average CTF and HTB enjoyer.
-
- Member of RHTeam \[World: 143, RU: 13]
+ Average CTF and HTB addict.
 
 ### Contacts
 
