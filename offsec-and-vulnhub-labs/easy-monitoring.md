@@ -1,12 +1,12 @@
 ---
 description: VulnHub Monitoring machine writeup
+cover: ../.gitbook/assets/image.png
+coverY: 0
 ---
 
 # \[Easy] Monitoring
 
-### Recon
-
-#### Services:
+### Recon:
 
 <pre class="language-c"><code class="lang-c">PORT    STATE SERVICE  VERSION
 <strong>22/tcp  open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
@@ -45,7 +45,7 @@ Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 #### Login page
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Exploitation
 
@@ -66,4 +66,4 @@ msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set 
 
 Run and get root:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
