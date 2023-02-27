@@ -14,3 +14,4 @@
 ## 🈴 OFFSEC & VULNHUB LABS
 
 * [\[Easy\] Monitoring](offsec-and-vulnhub-labs/easy-monitoring.md)
+* [\[Intermediate\] ICMP](offsec-and-vulnhub-labs/intermediate-icmp.md)
