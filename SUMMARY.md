@@ -4,9 +4,13 @@
 
 * [Info](README.md)
 
-## 🈲 HackTheBox Writeups
+## 🈲 HACKTHEBOX LABS
 
-* [\[Easy\] OpenSource](hackthebox-writeups/easy-opensource.md)
-* [\[Easy\] Stocker](hackthebox-writeups/easy-stocker.md)
-* [\[Easy\] MetaTwo](hackthebox/easy-metatwo.md)
-* [\[Medium\] Ambassador](hackthebox/medium-ambassador.md)
+* [\[Easy\] OpenSource](hackthebox-labs/easy-opensource.md)
+* [\[Easy\] Stocker](hackthebox-labs/easy-stocker.md)
+* [\[Easy\] MetaTwo](hackthebox-labs/easy-metatwo.md)
+* [\[Medium\] Ambassador](hackthebox-labs/medium-ambassador.md)
+
+## 🈴 OFFSEC & VULNHUB LABS
+
+* [\[Easy\] Monitoring](offsec-and-vulnhub-labs/easy-monitoring.md)

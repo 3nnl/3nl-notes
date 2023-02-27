@@ -96,7 +96,7 @@ Once the request has been modified, you get an auth bypass:
 
 In browser:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Client-Side XXS <a href="#client-side-xxs" id="client-side-xxs"></a>
 

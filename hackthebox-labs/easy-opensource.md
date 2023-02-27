@@ -6,7 +6,7 @@ coverY: 0
 
 # \[Easy] OpenSource
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Machine Info <a href="#machine-info" id="machine-info"></a>
 
@@ -217,9 +217,9 @@ After the connection is established, you must also set the proxy in the browser 
 
 We got access to Gitea service, so now we can try that credentials from source code:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 As you can see there is a private SSH-key `id_rsa`, that we can use to connect as user on machine:
 
