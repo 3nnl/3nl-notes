@@ -1,5 +1,7 @@
 ---
 description: VulnHub & OffSec ICMP machine writeup
+cover: ../.gitbook/assets/image (20).png
+coverY: 0
 ---
 
 # \[Intermediate] ICMP
@@ -27,7 +29,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Subdirs
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 #### Monitorr
 

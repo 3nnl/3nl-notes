@@ -392,7 +392,7 @@ developer@ambassador:~/.tmp$ ./chisel client 10.10.16.45:8080 R:8500:127.0.0.1:8
 
 Great, now we can access Consul at 127.0.0.1:8500, so let’s set the parameters for the exploit in metasploit:
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Where **RHOSTS** and **RPORT** is the address to reach Consul, **ACL\_TOKEN** is the previously found token, and **LHOST** and **LPORT** are the attacker’s machine.
 

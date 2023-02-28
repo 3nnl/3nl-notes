@@ -1,6 +1,6 @@
 ---
 description: VulnHub Monitoring machine writeup
-cover: ../.gitbook/assets/image (3).png
+cover: ../.gitbook/assets/image (21).png
 coverY: 0
 ---
 

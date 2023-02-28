@@ -2,7 +2,7 @@
 
 ## 🈷 Welcome
 
-* [Info](README.md)
+* [info.txt](README.md)
 
 ## 🈲 HACKTHEBOX LABS
 
