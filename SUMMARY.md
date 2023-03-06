@@ -15,3 +15,7 @@
 
 * [\[Easy\] Monitoring](offsec-and-vulnhub-labs/easy-monitoring.md)
 * [\[Intermediate\] ICMP](offsec-and-vulnhub-labs/intermediate-icmp.md)
+
+## forkbomb.ru | reverse
+
+* [spbctf\_4\_x86\_64](forkbomb.ru-or-reverse/spbctf\_4\_x86\_64.md)
