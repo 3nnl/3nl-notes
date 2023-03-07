@@ -19,3 +19,7 @@
 ## forkbomb.ru | reverse
 
 * [spbctf\_4\_x86\_64](forkbomb.ru-or-reverse/spbctf\_4\_x86\_64.md)
+
+## HACKTHEBOX OPEN BETA SEASON&#x20;
+
+* [\[Medium\] Agile](hackthebox-open-beta-season/medium-agile.md)
