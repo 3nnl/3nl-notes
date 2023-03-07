@@ -1,6 +1,6 @@
 ---
 description: HackTheBox OpenSource writeup
-cover: ../.gitbook/assets/image (2) (1).png
+cover: ../.gitbook/assets/image (2) (1) (1).png
 coverY: 0
 ---
 
@@ -236,7 +236,7 @@ user.txt
 
 Let’s use `pspy` to see what processes are running on a machine. After some time, I noticed the `/usr/local/bin/git-sync script` runs every few minute.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 ![Desktop View](http://localhost:1313/opensource/media11.png)
 
