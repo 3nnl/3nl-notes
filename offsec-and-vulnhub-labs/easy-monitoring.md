@@ -55,7 +55,7 @@ Use a <mark style="color:yellow;">`nagios_xi_plugins_check_plugin_authenticated_
 
 Set options:
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set RHOSTS 192.168.125.136
