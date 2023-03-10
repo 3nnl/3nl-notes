@@ -4,11 +4,11 @@ cover: >-
 coverY: -136.76553672316385
 ---
 
-# Info
+# info.txt
 
-Hi there✌.&#x20;
+Yo✌.&#x20;
 
-You've reached the place where I save InfoSec stuff such as writeups, notes and so on... &#x20;
+You reached the place where I save InfoSec stuff such as writeups, notes and so on... &#x20;
 
 ### About Me
 
@@ -16,7 +16,7 @@ You've reached the place where I save InfoSec stuff such as writeups, notes and 
 
  Average CTF and HTB addict.
 
-### Contacts
+\---
 
 Discord: [https://discord.com/users/363623527070433282](https://discord.com/users/363623527070433282)
 
@@ -26,5 +26,5 @@ HTB: [https://app.hackthebox.com/users/1083181](https://app.hackthebox.com/users
 
 CTFTime: [https://ctftime.org/user/139357](https://ctftime.org/user/139357)
 
-
+\---
 
