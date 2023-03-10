@@ -22,4 +22,4 @@
 
 ## HACKTHEBOX OPEN BETA SEASON&#x20;
 
-* [\[Medium\] Agile](hackthebox-open-beta-season/medium-agile.md)
+* [--Medium -- Agile](hackthebox-open-beta-season/medium-agile.md)

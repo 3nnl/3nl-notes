@@ -1,6 +1,6 @@
 ---
 description: VulnHub & OffSec ICMP machine writeup
-cover: ../.gitbook/assets/image (20).png
+cover: ../.gitbook/assets/image (20) (1).png
 coverY: 0
 ---
 

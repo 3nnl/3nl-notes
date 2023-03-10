@@ -168,7 +168,7 @@ nc -nlvp 1337PYTHT
 
 ### Container escape <a href="#container-escape" id="container-escape"></a>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 As you can see, we are in a docker container. However, now that we have access to the machine, we can check the previously found service on port 3000 and find out which service is running on it.
 
