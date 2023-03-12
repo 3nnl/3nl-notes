@@ -23,3 +23,7 @@
 ## HACKTHEBOX OPEN BETA SEASON&#x20;
 
 * [--Medium -- Agile](hackthebox-open-beta-season/medium-agile.md)
+
+## Recon
+
+* [ffuf](recon/ffuf.md)

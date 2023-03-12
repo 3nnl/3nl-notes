@@ -6,7 +6,7 @@ coverY: 0
 
 # \[Easy] OpenSource
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Machine Info <a href="#machine-info" id="machine-info"></a>
 
