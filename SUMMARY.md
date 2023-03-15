@@ -4,9 +4,9 @@
 
 * [info.txt](README.md)
 
-## HACKTHEBOX OPEN BETA SEASON&#x20;
+## 🈸 HACKTHEBOX OPEN BETA SEASON&#x20;
 
-* [--Medium -- Agile](hackthebox-open-beta-season/medium-agile.md)
+* [\[Medium\] Agile](hackthebox-open-beta-season/medium-agile.md)
 
 ## 🈴 OFFSEC & VULNHUB LABS
 
@@ -20,10 +20,14 @@
 * [\[Easy\] MetaTwo](hackthebox-labs/easy-metatwo.md)
 * [\[Medium\] Ambassador](hackthebox-labs/medium-ambassador.md)
 
+## 🈚 WEB
+
+* [Recon](web/recon.md)
+
+## 💀 PRIVELEGE ESCALATION
+
+* [Linux](privelege-escalation/linux.md)
+
 ## forkbomb.ru | reverse
 
 * [spbctf\_4\_x86\_64](forkbomb.ru-or-reverse/spbctf\_4\_x86\_64.md)
-
-## notes
-
-* [Recon](notes/recon.md)
