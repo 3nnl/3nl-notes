@@ -22,7 +22,7 @@ Discord: [https://discord.com/users/363623527070433282](https://discord.com/user
 
 Telegram: [https://t.me/nota3nnl](https://t.me/nota3nnl)
 
-HTB: [https://app.hackthebox.com/users/1083181](https://app.hackthebox.com/users/1083181)
+HTB: [https://app.hackthebox.com/profile/1083181](https://app.hackthebox.com/profile/1083181)
 
 CTFTime: [https://ctftime.org/user/139357](https://ctftime.org/user/139357)
 

@@ -22,7 +22,7 @@
 
 ## 🈚 WEB
 
-* [Recon](web/recon.md)
+* [Recon](notes/recon.md)
 
 ## 💀 PRIVELEGE ESCALATION
 
