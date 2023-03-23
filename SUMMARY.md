@@ -22,7 +22,10 @@
 
 ## HTB CYBER APOCALYPSE 2023
 
+* [Forensics](htb-cyber-apocalypse-2023/forensics/README.md)
+  * [\[Medium\] Relic Map](htb-cyber-apocalypse-2023/forensics/medium-relic-map.md)
 * [Crypto](htb-cyber-apocalypse-2023/crypto/README.md)
+  * [\[vEasy\] Perfect Sync](htb-cyber-apocalypse-2023/crypto/veasy-perfect-sync.md)
   * [\[vEasy\] Small Steps](htb-cyber-apocalypse-2023/crypto/veasy-small-steps.md)
 * [Hardware](htb-cyber-apocalypse-2023/hardware/README.md)
   * [\[vEasy\] Critical Flight](htb-cyber-apocalypse-2023/hardware/veasy-critical-flight.md)
