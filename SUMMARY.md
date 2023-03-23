@@ -20,6 +20,18 @@
 * [\[Easy\] MetaTwo](hackthebox-labs/easy-metatwo.md)
 * [\[Medium\] Ambassador](hackthebox-labs/medium-ambassador.md)
 
+## HTB CYBER APOCALYPSE 2023
+
+* [Crypto](htb-cyber-apocalypse-2023/crypto/README.md)
+  * [\[vEasy\] Small Steps](htb-cyber-apocalypse-2023/crypto/veasy-small-steps.md)
+* [Hardware](htb-cyber-apocalypse-2023/hardware/README.md)
+  * [\[vEasy\] Critical Flight](htb-cyber-apocalypse-2023/hardware/veasy-critical-flight.md)
+  * [\[vEasy\] Timed Transmission](htb-cyber-apocalypse-2023/hardware/veasy-timed-transmission.md)
+  * [\[Easy\] Debug](htb-cyber-apocalypse-2023/hardware/easy-debug.md)
+* [Misc](htb-cyber-apocalypse-2023/misc/README.md)
+  * [\[Easy\] Persistence](htb-cyber-apocalypse-2023/misc/easy-persistence.md)
+  * [\[Easy\] Remote Computation](htb-cyber-apocalypse-2023/misc/easy-remote-computation.md)
+
 ## Cheatsheets
 
 * [Web](notes/recon.md)
