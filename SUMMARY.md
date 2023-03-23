@@ -22,10 +22,10 @@
 
 ## Cheatsheets
 
-* [Web](cheatsheets/web/README.md)
+* [Web](notes/recon.md)
   * [ffuf](cheatsheets/web/ffuf.md)
 * [Privelege Escalation](cheatsheets/privelege-escalation/README.md)
-  * [Linux](cheatsheets/privelege-escalation/linux.md)
+  * [Linux](privelege-escalation/linux.md)
 
 ## forkbomb.ru | reverse
 

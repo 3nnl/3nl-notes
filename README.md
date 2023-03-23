@@ -4,19 +4,16 @@ cover: >-
 coverY: -136.76553672316385
 ---
 
-# info.txt
+# $ whoami
 
-Yo✌.&#x20;
+Yo✌\
+Yet another CTF and InfoSec notes...&#x20;
 
-You reached the place where I save InfoSec stuff such as writeups, notes and so on... &#x20;
+### About
 
-### About Me
+&#x20;Average CTF and HTB lover.
 
- Student in CyberSec & Forensics
-
- Average CTF and HTB addict.
-
-\---
+### Links
 
 Discord: [https://discord.com/users/363623527070433282](https://discord.com/users/363623527070433282)
 
@@ -25,6 +22,4 @@ Telegram: [https://t.me/nota3nnl](https://t.me/nota3nnl)
 HTB: [https://app.hackthebox.com/profile/1083181](https://app.hackthebox.com/profile/1083181)
 
 CTFTime: [https://ctftime.org/user/139357](https://ctftime.org/user/139357)
-
-\---
 
