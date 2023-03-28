@@ -1,6 +1,6 @@
 ---
 description: VulnHub Monitoring machine writeup
-cover: ../.gitbook/assets/image (21).png
+cover: ../../.gitbook/assets/image (21).png
 coverY: 0
 ---
 
@@ -41,21 +41,21 @@ Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 #### Homepage
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 #### Login page
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Exploitation
 
 Use a <mark style="color:yellow;">`nagios_xi_plugins_check_plugin_authenticated_rce`</mark> module in Metasploit:
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 Set options:
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set RHOSTS 192.168.125.136
@@ -66,4 +66,4 @@ msf6 exploit(linux/http/nagios_xi_plugins_check_plugin_authenticated_rce) > set 
 
 Run and get root and flag by way <mark style="color:yellow;">`/root/proof.txt`</mark>:
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>

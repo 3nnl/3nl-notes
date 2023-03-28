@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/image (7).png
+cover: ../../.gitbook/assets/image (7).png
 coverY: 0
 ---
 
@@ -29,17 +29,17 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Main page
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### **Leaked app path**
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ### Inside registred account
 
-<figure><img src="../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### **Cookies**
 
@@ -60,7 +60,7 @@ flask-unsign --decode --cookie '$COOKIE'
 
 After cookie decode:
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### Intercepting traffic from website
 
@@ -242,7 +242,7 @@ Content-Length: 677
 
 Connect via SSH using last creds and got user flag:
 
-<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Privelege Escalation
 
@@ -438,11 +438,11 @@ corum@agile:~/.tmp$ ./chisel client 10.10.16.21:12312 R:5555:127.0.0.1:5555
 
 </code></pre>
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 And found SSH creds for edwards:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```
 agile edwards d07867c6267dcb5df0af
@@ -450,7 +450,7 @@ agile edwards d07867c6267dcb5df0af
 
 ### sudo -l
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-json"><code class="lang-json">/var/tmp/config_test.json                                                  
 
@@ -495,5 +495,5 @@ export EDITOR="vim -- /app/venv/bin/activate"
 
 Add revshell to `activate` and get root.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

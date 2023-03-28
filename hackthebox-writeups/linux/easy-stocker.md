@@ -1,12 +1,12 @@
 ---
 description: HackTheBox Stocker Writeup
-cover: ../.gitbook/assets/image (2) (1).png
+cover: ../../.gitbook/assets/image (2) (1).png
 coverY: 0
 ---
 
 # \[Easy] Stocker
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Machine stats</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Machine stats</p></figcaption></figure>
 
 ### Recon <a href="#recon" id="recon"></a>
 
@@ -92,11 +92,11 @@ token: ddac62a28254561001277727cb397baf
 
 Once the request has been modified, you get an auth bypass:
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 In browser:
 
-<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Client-Side XXS <a href="#client-side-xxs" id="client-side-xxs"></a>
 
