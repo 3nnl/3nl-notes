@@ -6,16 +6,17 @@ coverY: -136.76553672316385
 
 # $ whoami
 
-Yo✌\
-Yet another CTF and InfoSec notes...&#x20;
+### What is this
 
-### About
+Yet another CTF and InfoSec notes...
 
-&#x20;Average CTF and HTB lover.
+### Whoami
+
+Average CTF and HTB lover.
 
 ### Links
 
-Discord: [https://discord.com/users/363623527070433282](https://discord.com/users/363623527070433282)
+Discord: <mark style="color:blue;">`.3nnl#4165`</mark>
 
 Telegram: [https://t.me/nota3nnl](https://t.me/nota3nnl)
 
