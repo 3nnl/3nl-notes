@@ -2,7 +2,7 @@
 
 ## Welcome
 
-* [$ whoami](README.md)
+* [$ more \~/about.txt](README.md)
 
 ## OFFSEC & VULNHUB LABS
 
