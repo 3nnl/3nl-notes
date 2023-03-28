@@ -1,12 +1,12 @@
 ---
 description: HackTheBox Ambassador writeup
-cover: ../../.gitbook/assets/image (2) (1).png
+cover: ../.gitbook/assets/image (2) (1).png
 coverY: 0
 ---
 
 # \[Medium] Ambassador
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Recon
 
@@ -22,14 +22,14 @@ PORT    STATE SERVICE VERSION
 
 Checking the web application on port 80 we can notice a hint of an attack vector:
 
-<figure><img src="../../.gitbook/assets/static_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/static_2.png" alt=""><figcaption></figcaption></figure>
 
 Checking the cookies, we will see that we have the **grafana\_session** session cookie, which means that the machine uses the sysadmin service Grafana, whose authorization page port is, by default, exactly 3000.\
 
 
 By knocking on [http://amba.htb:3000/](http://amba.htb:3000/), we will get a redirect to the authorization page:
 
-<figure><img src="../../.gitbook/assets/static_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/static_3.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -47,11 +47,11 @@ Realised that this version of Grafana has a CVE-2021-43798 path traversal vulner
 
 Using Metasploit:
 
-<figure><img src="../../.gitbook/assets/static_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/static_4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/static_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/static_5.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/static_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/static_6.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -357,13 +357,13 @@ consul/focal,now 1.13.2-1 amd64 [installed]
 
 Find an exploit for the RCE in Metasploit:
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 But we can’t use that, cuz UI on victim machine seems to be disabled:
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 So let’s set up a TCP tunneling from Ambassador machine to ours to exploit the vulnerability.
 
@@ -392,10 +392,10 @@ developer@ambassador:~/.tmp$ ./chisel client 10.10.16.45:8080 R:8500:127.0.0.1:8
 
 Great, now we can access Consul at 127.0.0.1:8500, so let’s set the parameters for the exploit in metasploit:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Where **RHOSTS** and **RPORT** is the address to reach Consul, **ACL\_TOKEN** is the previously found token, and **LHOST** and **LPORT** are the attacker’s machine.
 
 Run it and get the root.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

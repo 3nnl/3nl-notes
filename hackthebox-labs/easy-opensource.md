@@ -1,12 +1,12 @@
 ---
 description: HackTheBox OpenSource writeup
-cover: ../../.gitbook/assets/image (2) (1).png
+cover: ../.gitbook/assets/image (2) (1).png
 coverY: 0
 ---
 
 # \[Easy] OpenSource
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Machine Info <a href="#machine-info" id="machine-info"></a>
 
@@ -168,7 +168,7 @@ nc -nlvp 1337PYTHT
 
 ### Container escape <a href="#container-escape" id="container-escape"></a>
 
-<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 As you can see, we are in a docker container. However, now that we have access to the machine, we can check the previously found service on port 3000 and find out which service is running on it.
 
@@ -213,13 +213,13 @@ We see that the local `Gitea` service is running, but it’s available only from
 
 After the connection is established, you must also set the proxy in the browser settings on the previously specified port (5000):
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 We got access to Gitea service, so now we can try that credentials from source code:
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 As you can see there is a private SSH-key `id_rsa`, that we can use to connect as user on machine:
 
@@ -236,7 +236,7 @@ user.txt
 
 Let’s use `pspy` to see what processes are running on a machine. After some time, I noticed the `/usr/local/bin/git-sync script` runs every few minute.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ![Desktop View](http://localhost:1313/opensource/media11.png)
 

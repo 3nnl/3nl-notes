@@ -8,7 +8,7 @@ coverY: -136.76553672316385
 
 ### What is this
 
-Yet another CTF and InfoSec notes...
+Yet another CTF & InfoSec notes...
 
 ### Whoami
 
@@ -16,7 +16,7 @@ Average CTF and HTB lover.
 
 ### Links
 
-Discord: <mark style="color:blue;">`.3nnl#4165`</mark>
+Discord: <mark style="color:green;">**.3nnl#4165**</mark>
 
 Telegram: [https://t.me/nota3nnl](https://t.me/nota3nnl)
 

@@ -7,17 +7,17 @@
 ## OFFSEC & VULNHUB LABS
 
 * [Linux](offsec-and-vulnhub-labs/linux/README.md)
-  * [\[Easy\] Monitoring](offsec-and-vulnhub-labs/linux/easy-monitoring.md)
-  * [\[Intermediate\] ICMP](offsec-and-vulnhub-labs/linux/intermediate-icmp.md)
+  * [\[Easy\] Monitoring](offsec-and-vulnhub-labs/easy-monitoring.md)
+  * [\[Intermediate\] ICMP](offsec-and-vulnhub-labs/intermediate-icmp.md)
 
 ## HACKTHEBOX WRITEUPS
 
 * [Linux](hackthebox-writeups/linux/README.md)
-  * [\[Easy\] OpenSource](hackthebox-writeups/linux/easy-opensource.md)
-  * [\[Easy\] Stocker](hackthebox-writeups/linux/easy-stocker.md)
-  * [\[Easy\] MetaTwo](hackthebox-writeups/linux/easy-metatwo.md)
-  * [\[Medium\] Ambassador](hackthebox-writeups/linux/medium-ambassador.md)
-  * [\[Medium\] Agile](hackthebox-writeups/linux/medium-agile.md)
+  * [\[Easy\] OpenSource](hackthebox-labs/easy-opensource.md)
+  * [\[Easy\] Stocker](hackthebox-labs/easy-stocker.md)
+  * [\[Easy\] MetaTwo](hackthebox-labs/easy-metatwo.md)
+  * [\[Medium\] Ambassador](hackthebox-labs/medium-ambassador.md)
+  * [\[Medium\] Agile](hackthebox-open-beta-season/medium-agile.md)
 
 ## HTB CYBER APOCALYPSE 2023
 
